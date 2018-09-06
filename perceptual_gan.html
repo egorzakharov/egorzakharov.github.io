@@ -347,14 +347,10 @@ iframe {
   </script>
   <div class="container">
 
-
-    <!-- ====================================================== -->
-    <!-- ===================== TITLE ========================== -->
-    <!-- ====================================================== -->
-    <center>
-          <div class="title">Image Manipulation with Perceptual
+  <center>
+    <div class="title">Image Manipulation with Perceptual
 Discriminators</div>
-    </center>
+  </center>
    
 
  <center>
@@ -423,18 +419,13 @@ Discriminators</div>
       <!-- </div> -->
     </div>
     
-
-
-    <!-- ====================================================== -->
-    <!-- ===================== LINKS ========================== -->
-    <!-- ====================================================== -->
-    <center>
+  <center>
     <div class="row section" style="margin-bottom: -12px">
       <div class="col-sm-8">
       <!-- <div class="col-sm-12 center"> -->
         <div class="col-sm-4" style="margin-bottom: 12px">
           <!-- <div class="col-sm-12"> -->
-            <a href="assets/PerceptualGAN.pdf">
+            <a href="http://arxiv.org/abs/1809.01396">
                 <img src="assets/pdf.svg" class="img_links img-responsive">
                 <div class="author">Paper</div>
             </a>
@@ -442,13 +433,9 @@ Discriminators</div>
         </div>
       <!-- </div> -->
     </div>
-  </div>
+    </div>
   </center>
 
-
-    <!-- ====================================================== -->
-    <!-- ===================== Main idea ======================= -->
-    <!-- ====================================================== -->
     <div class="row section">
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Main idea</div>
@@ -508,7 +495,7 @@ Discriminators</div>
         <p>
             Below are additional experimental results to suplement the paper.
         </p>
-    	<a style="font-weight: 600" href="assets/faces_attributes.html">More attributes manipulation examples</a><br>
+        <a style="font-weight: 600" href="assets/faces_attributes.html">More attributes manipulation examples</a><br>
         <a style="font-weight: 600" href="assets/apple_to_orange.html">Apple to orange</a><br>
         <a style="font-weight: 600" href="assets/photos2monet.html">Photos to Monet</a>
     </div>
@@ -516,48 +503,10 @@ Discriminators</div>
     <div class="row section">
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Acknowledgements</div>
+      <p>This work has been supported by the Ministry of Education and Science of the Russian Federation (grant 14.756.31.0001).</p>
+
     </div>
-
-    <script type="text/javascript">
-
-      function change_height_cf(el) {
-        if (el.height > 0) {
-               document.getElementById("cf").style.height = el.height + 8;
-        };
-      };
-      
-
-       $(document).ready(function(){
-            $('#firstimage').on('load', function(){
-               console.log(2);
-                change_height_cf(document.getElementById("firstimage"));
-            });
-
-            if ($('#firstimage')[0].complete) {
-              console.log(3);
-              change_height_cf(document.getElementById("firstimage"));
-            };
-
-            $('#lastimage').on('load', function(){
-              console.log(2);
-              change_height_cf(document.getElementById("lastimage"));
-            });
-            if ($('#lastimage')[0].complete) {
-              console.log(3);
-              change_height_cf(document.getElementById("lastimage"));
-            };
-
-          });
-      
-    </script>
     
-
-   <!-- photoswipe -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js"></script>
-
-
-
     <script src="img-gallery.js"></script>
     <!-- Google Analytics -->
 <!--     <script type="text/javascript">
