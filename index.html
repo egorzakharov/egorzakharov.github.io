@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Egor Zakharov</title>
+  
+  <meta name="author" content="Egor Zakharov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Egor Zakharov</name>
+              </p>
+              <p>
+                I am a Postdoc at <a href="https://ait.ethz.ch/">ETH Zurich AIT lab</a>. My research interests include computer vision and graphics for the problems of 3D reconstruction and image animation.
+              </p>
+              <p>
+                I received my Ph.D. from <a href="https://www.skoltech.ru/">Skoltech</a>, under the supervision of <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. During my Ph.D., I also was a Lead Research Scientist at <a href="https://research.samsung.com/aicenter">Samsung AI Center</a>.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:eozakharov@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/Egor_Zakharov_CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=wyF-PxIAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/eozakharov">Twitter</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="data/my_photo.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="data/my_photo.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="neuralhaircut_stop()" onmouseover="neuralhaircut_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='neuralhaircut_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/neuralhaircut.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/neuralhaircut.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function neuralhaircut_start() {
+                  document.getElementById('neuralhaircut_image').style.opacity = "1";
+                }
+
+                function neuralhaircut_stop() {
+                  document.getElementById('neuralhaircut_image').style.opacity = "0";
+                }
+                neuralhaircut_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://samsunglabs.github.io/NeuralHaircut">
+                <papertitle>Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction</papertitle>
+              </a>
+              <br>
+              <a href="https://ncs.is.mpg.de/person/vsklyarova">Vanessa Sklyarova</a>,
+              <a href="https://scholar.google.com/citations?user=67HtbJUAAAAJ">Jenya Chelishev</a>,
+              Igor Medvedev,
+              <a href="https://andreeadogaru.github.io/">Andreea Dogaru</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>,
+              <strong>Egor Zakharov</strong>
+              <br>
+              <em>ICCV</em>, 2023
+              <br>
+              <a href="https://samsunglabs.github.io/NeuralHaircut">project page</a>
+              /
+              <a href="https://www.youtube.com/watch?v=-gg4GhWKuQs">video</a>
+              /
+              <a href="https://arxiv.org/abs/2306.05872">arXiv</a>
+              <p></p>
+              <p>
+                Reconstructing personalized and realistic hairstyles in the form of 3D strands from a smartphone video.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="sphereguided_stop()" onmouseover="sphereguided_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sphereguided_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/sphereguided.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/sphereguided.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function sphereguided_start() {
+                  document.getElementById('sphereguided_image').style.opacity = "1";
+                }
+
+                function sphereguided_stop() {
+                  document.getElementById('sphereguided_image').style.opacity = "0";
+                }
+                sphereguided_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://andreeadogaru.github.io/SphereGuided/">
+                <papertitle>Sphere-Guided Training of Neural Implicit Surfaces</papertitle>
+              </a>
+              <br>
+              <a href="https://andreeadogaru.github.io/">Andreea Dogaru</a>,
+              <a href="https://reality.tf.fau.de/staff/t.ardelean.html">Andrei-Timotei Ardelean</a>,
+              <a href="https://scholar.google.com/citations?user=aJyxXoMAAAAJ">Savva Ignatyev</a>,
+              <strong>Egor Zakharov</strong>,
+              <a href="https://faculty.skoltech.ru/people/evgenyburnaev">Evgeny Burnaev</a>
+              <br>
+              <em>CVPR</em>, 2023
+              <br>
+              <a href="https://andreeadogaru.github.io/SphereGuided">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2209.15511">arXiv</a>
+              <p></p>
+              <p>
+              We improve existing surface reconstruction methods using a plug-and-play hybrid representation, achieving up-to 18% improvement in reconstruction quality and approx. 2x faster convergence speed.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="rome_stop()" onmouseover="rome_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rome_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/rome.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/rome.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function rome_start() {
+                  document.getElementById('rome_image').style.opacity = "1";
+                }
+
+                function rome_stop() {
+                  document.getElementById('rome_image').style.opacity = "0";
+                }
+                rome_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://samsunglabs.github.io/rome/">
+                <papertitle>Realistic One-shot Mesh-based Head Avatars</papertitle>
+              </a>
+              <br>
+              <a href="https://khakhulin.github.io">Taras Khakhulin</a>,
+              <a href="https://ncs.is.mpg.de/person/vsklyarova">Vanessa Sklyarova</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>,
+              <strong>Egor Zakharov</strong>,
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              <a href="https://samsunglabs.github.io/rome/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2206.08343">arXiv</a>
+              <p></p>
+              <p>
+                We create animatable 3D head reconstructions in the form of a rigged mesh from a single image by leveraging facial priors and differentiable rendering of in-the-wild video data.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="megaportraits_stop()" onmouseover="megaportraits_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='megaportraits_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/megaportraits.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/megaportraits.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function megaportraits_start() {
+                  document.getElementById('megaportraits_image').style.opacity = "1";
+                }
+
+                function megaportraits_stop() {
+                  document.getElementById('megaportraits_image').style.opacity = "0";
+                }
+                megaportraits_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://samsunglabs.github.io/MegaPortraits/">
+                <papertitle>MegaPortraits: One-shot Megapixel Neural Head Avatars</papertitle>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/nikita-drobyshev-039569149">Nikita Drobyshev</a>,
+              <a href="https://scholar.google.com/citations?user=67HtbJUAAAAJ">Jenya Chelishev</a>,
+              <a href="https://khakhulin.github.io">Taras Khakhulin</a>,
+              <a href="https://scholar.google.com/citations?user=MUshu5oAAAAJ">Aleksei Ivakhnenko</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>,
+              <strong>Egor Zakharov</strong>,
+              <br>
+              <em>ACM MM</em>, 2022
+              <br>
+              <a href="https://samsunglabs.github.io/MegaPortraits/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2207.07621">arXiv</a>
+              <p></p>
+              <p>
+                Learning disentangled expression and appearance representations for high-resolution portrait animation.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="bilayer_stop()" onmouseover="bilayer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bilayer_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/bilayer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/bilayer.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function bilayer_start() {
+                  document.getElementById('bilayer_image').style.opacity = "1";
+                }
+
+                function bilayer_stop() {
+                  document.getElementById('bilayer_image').style.opacity = "0";
+                }
+                bilayer_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/saic-violet/bilayer-model">
+                <papertitle>Fast Bi-layer Neural Synthesis of One-Shot Realistic Head Avatars</papertitle>
+              </a>
+              <br>
+              <strong>Egor Zakharov</strong>,
+              <a href="https://scholar.google.com/citations?user=MUshu5oAAAAJ">Aleksei Ivakhnenko</a>,
+              <a href="https://scholar.google.com/citations?user=Zm8hNeUAAAAJ">Aliaksandra Shysheya</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>
+              <br>
+              <em>ECCV</em>, 2020
+              <br>
+              <a href="https://github.com/saic-violet/bilayer-model">project page</a>
+              /
+              <a href="https://www.youtube.com/watch?v=54tji11VhOI">video</a>
+              /
+              <a href="https://arxiv.org/abs/2008.10174">arXiv</a>
+              <p></p>
+              <p>
+                Speeding-up the inference of neural head avatars using an efficient architecture that achieves real-time performance on mobile.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="talkingheads_stop()" onmouseover="talkingheads_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='talkingheads_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/talkingheads.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/talkingheads.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function talkingheads_start() {
+                  document.getElementById('talkingheads_image').style.opacity = "1";
+                }
+
+                function talkingheads_stop() {
+                  document.getElementById('talkingheads_image').style.opacity = "0";
+                }
+                talkingheads_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1905.08233">
+                <papertitle>Few-Shot Adversarial Learning of Realistic Neural Talking Head Models</papertitle>
+              </a>
+              <br>
+              <strong>Egor Zakharov</strong>,
+              <a href="https://scholar.google.com/citations?user=Zm8hNeUAAAAJ">Aliaksandra Shysheya</a>,
+              <a href="https://scholar.google.com/citations?user=GPeSDisAAAAJ">Egor Burkov</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>
+              <br>
+              <em>ICCV</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">video</a>
+              /
+              <a href="https://arxiv.org/abs/1905.08233">arXiv</a>
+              <p></p>
+              <p>
+                Leveraging a large corpus of weakly annotated video data to achieve the realistic synthesis of human heads in a few-shot scenario using meta-learning and GAN-based training.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="texturedavatars_stop()" onmouseover="texturedavatars_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='texturedavatars_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/texturedavatars.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/texturedavatars.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function texturedavatars_start() {
+                  document.getElementById('texturedavatars_image').style.opacity = "1";
+                }
+
+                function texturedavatars_stop() {
+                  document.getElementById('texturedavatars_image').style.opacity = "0";
+                }
+                texturedavatars_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1905.08776">
+                <papertitle>Textured Neural Avatars</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=Zm8hNeUAAAAJ">Aliaksandra Shysheya</a>,
+              <strong>Egor Zakharov</strong>,
+              <a href="https://scholar.google.com/citations?user=gAUMV9oAAAAJ">Kara-Ali Aliev</a>,
+              <a href="https://scholar.google.com/citations?user=1pFCtykAAAA">Renat Bashirov</a>,
+              <a href="https://scholar.google.com/citations?user=GPeSDisAAAAJ">Egor Burkov</a>,
+              <a href="https://scholar.google.com/citations?user=JTcOMz4AAAAJ">Karim Iskakov</a>,
+              <a href="https://scholar.google.com/citations?user=MUshu5oAAAAJ">Aleksei Ivakhnenko</a>,
+              <a href="https://www.linkedin.com/in/yury-malkov-b6597382/">Yury Malkov</a>,
+              <a href="https://scholar.google.com/citations?user=hnBRVhEAAAAJ">Igor Pasechnik</a>,
+              <a href="https://dmitryulyanov.github.io/">Dmitry Ulyanov</a>,
+              <a href="https://alexandervakhitov.github.io/">Alexander Vakhitov</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>
+              <br>
+              <em>CVPR</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://github.com/saic-violet/textured_avatars">project page</a>
+              /
+              <a href="https://arxiv.org/abs/1905.08776">arXiv</a>
+              <p></p>
+              <p>
+                We integrated classical and neural rendering approaches to achieve high robustness of the avatar renders to the poses and views unseen during training.
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="perceptualgan_stop()" onmouseover="perceptualgan_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='perceptualgan_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/perceptualgan.jpg" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/perceptualgan.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function perceptualgan_start() {
+                  document.getElementById('perceptualgan_image').style.opacity = "1";
+                }
+
+                function perceptualgan_stop() {
+                  document.getElementById('perceptualgan_image').style.opacity = "0";
+                }
+                perceptualgan_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://egorzakharov.github.io/perceptual_gan">
+                <papertitle>Image Manipulation with Perceptual Discriminators</papertitle>
+              </a>
+              <br>
+              <a href="https://disungatullina.github.io/">Diana Sungatullina</a>,
+              <strong>Egor Zakharov</strong>,
+              <a href="https://dmitryulyanov.github.io/">Dmitry Ulyanov</a>,
+              <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>
+              <br>
+              <em>ECCV</em>, 2018
+              <br>
+              <a href="https://egorzakharov.github.io/perceptual_gan">project page</a>
+              /
+              <a href="https://arxiv.org/abs/1809.01396">arXiv</a>
+              <p></p>
+              <p>
+                We combine the GAN-based and perceptual losses in a single training method, which primarily excells at the task of facial attribute manipulation.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                This website uses a <a href="https://github.com/jonbarron/website">template</a> done by <a href="https://jonbarron.info/">Jon Barron</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
