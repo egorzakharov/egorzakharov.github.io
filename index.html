@@ -31,10 +31,10 @@
                 <name>Egor Zakharov</name>
               </p>
               <p>
-                I am a Postdoc at <a href="https://ait.ethz.ch/">ETH Zurich AIT lab</a>. My research interests include computer vision and graphics for the problems of 3D reconstruction and image animation.
+                I am a Research Scientist @ Meta. My research interests include computer vision and graphics for the problems of 3D reconstruction and image animation.
               </p>
               <p>
-                I received my Ph.D. from <a href="https://www.skoltech.ru/">Skoltech</a>, under the supervision of <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. During my Ph.D., I also was a Lead Research Scientist at <a href="https://research.samsung.com/aicenter">Samsung AI Center</a>.
+                I received my Ph.D. from <a href="https://www.skoltech.ru/">Skoltech</a>, under the supervision of <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. During my Ph.D., I also was a Lead Research Scientist at <a href="https://research.samsung.com/aicenter">Samsung AI Center</a>. After that, I did a Postdoc at <a href="https://ait.ethz.ch/">ETH Zurich AIT lab</a>
               </p>
               <p style="text-align:center">
                 <a href="mailto:eozakharov@gmail.com">Email</a> &nbsp/&nbsp
@@ -59,7 +59,52 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="voodooxp_stop()" onmouseover="voodooxp_start()" bgcolor="#ffffd0">
+          <tr onmouseout="joker_stop()" onmouseover="joker_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='joker_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/joker.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/joker.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function joker_start() {
+                  document.getElementById('joker_image').style.opacity = "1";
+                }
+
+                function joker_stop() {
+                  document.getElementById('joker_image').style.opacity = "0";
+                }
+                joker_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://malteprinzler.github.io/projects/joker/index.html">
+                <papertitle>Joker: Conditional 3D Head Synthesis with Extreme Facial Expressions</papertitle>
+              </a>
+              <br>
+              <a href="https://malteprinzler.github.io/">Malte Prinzler</a>,
+              <strong>Egor Zakharov</strong>
+              <a href="https://vanessik.github.io/">Vanessa Sklyarova</a>,
+              <a href="https://bernakabadayi.github.io/">Berna Kabadayi</a>,
+              <a href="https://justusthies.github.io/">Justus Thies</a>,
+              <br>
+              <em>International Conference on 3D Vision (3DV)</em>, 2025
+              <br>
+              <a href="https://malteprinzler.github.io/projects/joker/index.html">project page</a>
+              /
+              <a href="https://malteprinzler.github.io/projects/joker/index.html#video">video</a>
+              /
+              <a href="https://arxiv.org/abs/2410.16395">arXiv</a>
+              <p></p>
+              <p>
+                Conditional synthesis of 3D human heads with extreme expressions.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="voodooxp_stop()" onmouseover="voodooxp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='voodooxp_image'><video  width=100% height=100% muted autoplay loop>
@@ -109,7 +154,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="gaussianhaircut_stop()" onmouseover="gaussianhaircut_start()">
+          <tr onmouseout="gaussianhaircut_stop()" onmouseover="gaussianhaircut_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='gaussianhaircut_image'><video  width=100% height=100% muted autoplay loop>
